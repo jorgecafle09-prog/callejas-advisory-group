@@ -1,18 +1,17 @@
 # Callejas Advisory Group
+Sitio Vite + React listo para Azure Static Web Apps.
 
-Deployable Vite + React website.
-
-## Local preview
-1. `npm install`
-2. `npm run dev`
+## Vista local
+npm install
+npm run dev
 
 ## Build
-`npm run build`
+npm run build
 
-Azure Static Web Apps settings:
-- App location: `/`
-- API location: leave empty
-- Output location: `dist`
+Azure Static Web Apps:
+- App location: /
+- API location: vacío
+- Output location: dist
 
-## Important
-The consultation form currently uses `contact@callejasadvisory.com` as a placeholder destination and opens the visitor's default email application. Replace that address in `src/main.jsx` with a real mailbox before production use.
+## Contacto
+El formulario abre el cliente de correo con `contact@callejasadvisory.com` como destino. Reemplazar esa dirección en `src/main.jsx` cuando exista el buzón definitivo.
